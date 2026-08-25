@@ -1,0 +1,41 @@
+{
+  "name": "genpark-physics-morphing-generative-video-fx-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Physics-morphing generative video effects renderer simulating dynamic elastoplastic deformation, fluid melt, and particle disintegration.",
+  "author": "genpark",
+  "category": "generative-fx",
+  "tags": [
+    "physics-morphing",
+    "pika-effects",
+    "video-fx",
+    "elastoplastic-melt",
+    "generative-video"
+  ],
+  "inputs": {
+    "input_media_url": {
+      "type": "string"
+    },
+    "effect_type": {
+      "type": "string"
+    },
+    "duration_seconds": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "effect_job_id": {
+      "type": "string"
+    },
+    "volumetric_mass_conservation_pct": {
+      "type": "number"
+    },
+    "surface_tension_fidelity_score": {
+      "type": "number"
+    },
+    "rendered_fx_video_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
